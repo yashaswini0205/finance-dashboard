@@ -1,0 +1,166 @@
+/* Apply background image to the entire page */
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLH-5uakl_RrBCJo-axIKtrk64fIT9KtSqGg&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsla(120, 74%, 5%, 0.963);
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    margin: 30px auto;
+    padding: 65px 0;
+    max-width: 500px;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.logo-icon {
+    font-size: 36px;
+    color: #090217;
+}
+
+/* Search Bar Styling */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #6200ee;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-bar button:hover {
+    background-color: #4500b0;
+}
+
+/* Alphabet Buttons */
+.alphabet-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.alphabet-btn {
+    padding: 10px;
+    background-color: #6200ee;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.alphabet-btn:hover {
+    background-color: #4500b0;
+}
+
+/* Suggestions Styling */
+.suggestions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.suggestion-item {
+    opacity: 0;
+    animation: fadeIn 0.4s ease forwards;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 60%;
+    text-align: center;
+}
+
+.suggestion-item:hover {
+    background-color: #e0e0e0;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Footer Styling */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+/* Change color of h2 "Made By Yashaswini.M" */
+h1 {
+    color: #fbf5f4; /* You can change the color code to any color of your choice */
+}
+
+/* Change color of h2 "Made By Yashaswini.M" */
+h2 {
+    color: hsl(8, 79%, 4%); /* You can change the color code to any color of your choice */
+}
